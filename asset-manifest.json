@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.f39d0712.css",
+    "main.js": "/Portfolio/static/js/main.b2605838.js",
+    "static/js/787.455bead0.chunk.js": "/Portfolio/static/js/787.455bead0.chunk.js",
+    "static/media/weather.png": "/Portfolio/static/media/weather.a0328f13aacd7d57b26f.png",
+    "static/media/paosanity.jpg": "/Portfolio/static/media/paosanity.afe460359ac609454a56.jpg",
+    "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python.png": "/Portfolio/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/php.png": "/Portfolio/static/media/php.00baeb442607d6f50cfe.png",
+    "static/media/android.png": "/Portfolio/static/media/android.1e1e2016202afff22cc8.png",
+    "static/media/csharp.png": "/Portfolio/static/media/csharp.027bbf37466d07c18fbf.png",
+    "static/media/java.png": "/Portfolio/static/media/java.35397b59170cfd616fee.png",
+    "static/media/git.png": "/Portfolio/static/media/git.8dd3688bb1415872d423.png",
+    "static/media/css.png": "/Portfolio/static/media/css.443bc827ad57da012b4b.png",
+    "static/media/html.png": "/Portfolio/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/spring.png": "/Portfolio/static/media/spring.94f201ce44348763e6a5.png",
+    "static/media/js.png": "/Portfolio/static/media/js.d206e1f67e4c0985166c.png",
+    "static/media/node.png": "/Portfolio/static/media/node.9fea1c7da2bd42ab93bf.png",
+    "static/media/swift.png": "/Portfolio/static/media/swift.dd13616e70bcd53cd606.png",
+    "index.html": "/Portfolio/index.html",
+    "main.f39d0712.css.map": "/Portfolio/static/css/main.f39d0712.css.map",
+    "main.b2605838.js.map": "/Portfolio/static/js/main.b2605838.js.map",
+    "787.455bead0.chunk.js.map": "/Portfolio/static/js/787.455bead0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f39d0712.css",
+    "static/js/main.b2605838.js"
+  ]
+}
