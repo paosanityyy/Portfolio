@@ -1,0 +1,14 @@
+.projects {
+    background-color: #1f1b24;
+    color: #c0c0c0;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.projectImg{
+    width: 500px;
+}

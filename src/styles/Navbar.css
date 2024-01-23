@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navigation{
+    padding-left: 200px;
+}
+
+.nav, .nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    padding-top: 20px;
+    width: 100%;
+    background-color: #1f1b24; /* Light grey background */
+    border-bottom: 0.5px solid #cccccc; /* Bottom border */
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed; /* Keep the navbar fixed at the top */
+}
+
+.nav-link {
+    color: #ffffff; /* Dark text color */
+    font-size: 20px;
+    padding: 20px; /* Padding for top/bottom and left/right */
+    text-decoration: none; /* No underline */
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid #007bff; /* Blue color on hover */
+}
+
+.nav-link.active {
+    border-bottom: 5px solid #007bff; /* Blue color on active */
+    color: #007bff;
+    font-weight: bold;
+}
+
+.fa {
+    margin-right: 5px; /* Space between icon and text */
+}

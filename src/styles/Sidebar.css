@@ -1,0 +1,95 @@
+.card-header-center {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dp {
+    width: 300px;
+    border-radius: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.resume, .linkedIn{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 170px;
+    padding: 15px;
+    max-width: 100%;
+    background-color: #696969;
+    color: #eeeeee;
+    border-radius: 5px;
+    border: none;
+}
+
+.resume:hover, .linkedIn:hover{
+    color: #e9ecef;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.email, .github{
+    margin-bottom: 20px;
+}
+
+.email:hover{
+    color:#007bff;
+    cursor: pointer;
+}
+
+.github:hover{
+    color:#007bff;
+    cursor: pointer;
+}
+
+.card{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.5px solid #666666;
+}
+
+.card-footer {
+    font-size: 20px;
+}
+
+
+
+.socials{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+    content: " ";
+    font-size: 24px;
+    background: linear-gradient(45deg, #ff003c, #c648c8);
+    transform: scale(1);
+    margin-right: 20px;
+}
+
+.social-button:hover {
+    background: linear-gradient(180deg, #c648c8, #ff003c);
+    cursor: pointer;
+}
+

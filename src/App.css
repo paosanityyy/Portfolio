@@ -1,0 +1,50 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1f1b24;
+}
+
+/* Style for the main container that holds everything */
+.app-container {
+  display: flex;
+  flex-direction: row; /* Change to row for horizontal layout */
+  height: 100vh; /* 100% of the viewport height */
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1b24;
+  color: #c0c0c0;
+  font-size: 20px;
+  width: 25%;
+  padding-top: 150px; /* Add padding as needed */
+  padding-left: 30px;
+}
+
+
+.overview {
+  display: flex;
+  flex-direction: column; /* Change to column for vertical alignment of content */
+  background-color: #1f1b24;
+  color: #c0c0c0;
+  font-size: 20px;
+  width: 75%; 
+  padding-top: 120px; /* Add padding as needed */
+  padding-right: 30px;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column; /* Change to column for vertical alignment of content */
+  background-color: #1f1b24;
+  color: #c0c0c0;
+  font-size: 20px;
+  width: 75%; 
+  padding-top: 120px; /* Add padding as needed */
+  padding-right: 30px;
+}
