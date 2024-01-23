@@ -1,4 +1,25 @@
 /* App.css */
+@media screen and (max-width: 600px) {
+  .sidebar, .overview, .projects {
+    width: 100%;
+    padding-left: 20px; /* Adjust padding for smaller screens */
+    padding-right: 20px;
+  }
+
+  .app-container {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  /* Adjust font size for readability on small screens */
+  body, .sidebar, .overview, .projects {
+    font-size: 16px;
+  }
+
+  /* Simplify or hide certain elements that may not be necessary on mobile */
+  /* Example: .some-element { display: none; } */
+}
+
+
 
 body {
   margin: 0;
@@ -21,9 +42,9 @@ body {
   background-color: #1f1b24;
   color: #c0c0c0;
   font-size: 20px;
-  width: 25%;
+  width: 30%;
   padding-top: 150px; /* Add padding as needed */
-  padding-left: 30px;
+  padding-left: 100px;
 }
 
 
@@ -33,9 +54,8 @@ body {
   background-color: #1f1b24;
   color: #c0c0c0;
   font-size: 20px;
-  width: 75%; 
+  width: 70%; 
   padding-top: 120px; /* Add padding as needed */
-  padding-right: 30px;
 }
 
 .projects{

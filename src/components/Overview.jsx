@@ -46,9 +46,9 @@ const Overview = () => {
                             <li><Image src={jsImg} /><span>Javascript</span></li>
                             <li><Image src={reactImg} /><span>React</span></li>
                             <li><Image src={nodeImg} /><span>Node.js</span></li>
-                            <li><Image src={javaImg} style={{width:'60px', height:'auto'}}/><span>Java</span></li>
+                            <li><Image src={javaImg} style={{width:'30px', height:'auto'}}/><span>Java</span></li>
                             <li><Image src={csharpImg} /><span>C#</span></li>
-                            <li><Image src={phpImg} style={{width:'150px', height:'auto', marginBottom:'25px'}}/><span>PHP</span></li>
+                            <li><Image src={phpImg} style={{width:'80px', height:'auto', marginBottom:'20px'}}/><span>PHP</span></li>
                             <li><Image src={springImg} /><span>Springboot</span></li>
                             <li><Image src={netImg} /><span>.NET</span></li>
                             <li><Image src={androidImg} /><span>Android Studio</span></li>
