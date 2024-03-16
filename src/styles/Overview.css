@@ -10,16 +10,12 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    line-height: 1.15em;
 }
 
 .typewriter{
-    
     font-size: 60px;
     text-align: center;
     justify-content: center;
-    line-height: 1.15em;
-    margin-bottom: 50px;
     min-height: 100px;
 }
 
@@ -37,16 +33,14 @@
     margin-bottom: 50px;
 }
 
-.grid-container{
-}
 
 .grid-container ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 4 columns of equal width */
-    grid-gap: 10px; /* Adjust the gap between grid items */
+    grid-gap: 25px; /* Adjust the gap between grid items */
     list-style: none;
     margin: auto;
-    padding: 0 100px;
+    padding: 0 60px;
 }
 
 .grid-container li {

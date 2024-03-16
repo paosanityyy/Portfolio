@@ -1,17 +1,26 @@
 /* Navbar.css */
+
+
 .navigation{
-    padding-left: 200px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img{
+    width: 60px;
+    height: auto;
+    margin-right: 575px;
 }
 
 .nav, .nav-item {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .nav {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 100%;
     background-color: #1f1b24; /* Light grey background */
     border-bottom: 0.5px solid #cccccc; /* Bottom border */
@@ -21,8 +30,8 @@
 
 .nav-link {
     color: #ffffff; /* Dark text color */
-    font-size: 20px;
-    padding: 20px; /* Padding for top/bottom and left/right */
+    font-size: 16px;
+    padding: 40px 20px; /* Padding for top/bottom and left/right */
     text-decoration: none; /* No underline */
 }
 

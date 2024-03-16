@@ -1,18 +1,74 @@
+.introProj {
+    font-size: 40px;
+    text-align: center;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columns of equal width */
+    margin: auto; /* Center the grid */
+}
+
 .projects {
-    background-color: #1f1b24;
     color: #c0c0c0;
     font-size: 20px;
 }
 
 .project-card{
-    padding: 0 100px;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: #2a282e;
+    border-radius: 3.5%;
+
 }
 
-h1 {
-    font-size: 40px;
-    text-align: center;
+.projectTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projectTxt, .techStack{
+    font-size: 18px;
+}
+
+.techStack{
+    font-weight: bold;
 }
 
 .projectImg{
-    width: 500px;
+    /* align in center */
+    margin: auto;
+    width: 300px;
+}
+
+.projectBody{
+    padding: 5px;
+}
+
+
+
+.project-btn{
+    background-color: #696969;
+    border: none;
+    border-radius: 5px;
+    color: #eeeeee;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* put button in the bottom-center */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.project-btn:hover{
+    color: #eeeeee;
+    background-color: #007bff;
+    cursor: pointer;
 }
