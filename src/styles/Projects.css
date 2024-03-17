@@ -1,74 +1,76 @@
-.introProj {
-    font-size: 40px;
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 0 auto; /* Centers the container */
+}
+
+.project-card {
+    width: 400px;
+    margin: 25px; /* This adds margin around each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    transition: box-shadow 0.3s ease; /* Optional: Animation for shadow on hover */
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Larger shadow on hover for interaction feedback */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 450px;
+    height: 275px;
+    object-fit: cover; /* Ensures the image covers the entire container */
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Indicates that the image is clickable */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.project-info {
     text-align: center;
 }
 
-.project-list{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 4 columns of equal width */
-    margin: auto; /* Center the grid */
-}
-
-.projects {
-    color: #c0c0c0;
+.project-name {
+    margin-bottom: 5px;
     font-size: 20px;
 }
 
-.project-card{
-    margin: 20px;
-    padding: 30px;
-    width: 300px;
-    height: 500px;
-    background-color: #2a282e;
-    border-radius: 3.5%;
-
-}
-
-.projectTitle{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.projectTxt, .techStack{
-    font-size: 18px;
-}
-
-.techStack{
-    font-weight: bold;
-}
-
-.projectImg{
-    /* align in center */
-    margin: auto;
-    width: 300px;
-}
-
-.projectBody{
-    padding: 5px;
-}
-
-
-
-.project-btn{
-    background-color: #696969;
-    border: none;
-    border-radius: 5px;
-    color: #eeeeee;
-    text-decoration: none;
-    text-align: center;
+.project-description,
+.project-tech-stack {
     font-size: 16px;
-    padding: 10px;
-    width: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* put button in the bottom-center */
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
+    padding: 0 20px;
 }
 
-.project-btn:hover{
-    color: #eeeeee;
-    background-color: #007bff;
-    cursor: pointer;
+.project-btn {
+    margin-top: 10px;
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Adjust the text color to fit your design */
+    background-color: #007bff; /* Bootstrap primary color for consistency */
+    border: none;
+    padding: 5px 10px; /* Adds some padding inside the button */
+    border-radius: 5px; /* Optional: Rounds the corners of the button */
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+}
+
+.project-btn:hover {
+    background-color: #0056b3; /* Darkens the button on hover for interactive feedback */
 }

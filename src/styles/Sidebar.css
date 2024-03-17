@@ -1,20 +1,27 @@
 .card-header-center {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding-top: 150px;
+    padding-left: 20px;
 }
 
 .dp {
     width: 300px;
-    border-radius: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
+    height: 300px;
+    overflow: hidden; /* This ensures no overflow outside the rounded corners */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-body{
-    padding: 0 50px;
+.dp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will cover the area without stretching the image */
+    border-radius: 50%; /* If the img itself needs to be rounded */
 }
+
+
 
 .name{
     font-size: 30px;
@@ -41,19 +48,24 @@
     cursor: pointer;
 }
 
-.email, .github{
+.email, .github {
     margin-bottom: 20px;
 }
 
-.email:hover{
-    color:#007bff;
-    cursor: pointer;
+
+
+
+
+a{
+    text-decoration: none;
+    color: #eeeeee;
 }
 
-.github:hover{
-    color:#007bff;
-    cursor: pointer;
+a:hover{
+    color: #007bff;
 }
+
+
 
 
 hr{
@@ -62,9 +74,6 @@ hr{
     border: 0.5px solid #666666;
 }
 
-.card-footer{
-    padding: 0 50px;
-}
 
 .socials{
     margin-top: 20px;
@@ -80,7 +89,6 @@ hr{
     content: " ";
     font-size: 24px;
     background: linear-gradient(45deg, #ff003c, #c648c8);
-    transform: scale(1);
     margin-right: 20px;
 }
 

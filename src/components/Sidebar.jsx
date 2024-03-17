@@ -16,13 +16,21 @@ function Sidebar() {
             <Card.Title className="name">Paolo Casison</Card.Title>
             <Card.Text className="title">Front End Web Developer</Card.Text>
             <Button className="resume"><FontAwesomeIcon icon={faFile} /> Resume</Button>
-            <Button className="linkedIn"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</Button>
+            <a href="https://www.linkedin.com/in/paolo-casison-5387511bb/" target="_blank" rel="noopener noreferrer">
+                <Button className="linkedIn">
+                    <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+                </Button>
+            </a>
             <Card.Text className="location"><FontAwesomeIcon icon={faLocationDot} /> Toronto, ON, Canada</Card.Text>
             <div className="email">
             <Card.Link><FontAwesomeIcon icon={faEnvelopeOpen} /> paolocasison@gmail.com</Card.Link>
             </div>
             <div className="github">
-            <Card.Link><FontAwesomeIcon icon={faGithub} /> github.com/paosanity</Card.Link>    
+            <a href="https://github.com/paosanityyy" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}} > 
+                <Card.Link><FontAwesomeIcon icon={faGithub} /> github.com/paosanity</Card.Link>
+            </a>
+
+                
             </div>
             </Card.Body>
 

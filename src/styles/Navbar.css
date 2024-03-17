@@ -2,12 +2,12 @@
 
 
 .navigation{
-    padding-left: 50px;
     display: flex;
     align-items: center;
 }
 
 .navbar-logo img{
+    padding-left: 50px;
     width: 60px;
     height: auto;
     margin-right: 575px;
@@ -16,7 +16,6 @@
 .nav, .nav-item {
     display: flex;
     flex-direction: row;
-    
 }
 
 .nav {
@@ -30,8 +29,8 @@
 
 .nav-link {
     color: #ffffff; /* Dark text color */
-    font-size: 16px;
-    padding: 40px 20px; /* Padding for top/bottom and left/right */
+    font-size: 20px;
+    padding: 40px 50px; /* Padding for top/bottom and left/right */
     text-decoration: none; /* No underline */
 }
 
