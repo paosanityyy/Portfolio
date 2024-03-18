@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ff67398d.css",
-    "main.js": "/Portfolio/static/js/main.e8db6b0d.js",
+    "main.css": "/Portfolio/static/css/main.38e29107.css",
+    "main.js": "/Portfolio/static/js/main.d14504ac.js",
     "static/js/787.455bead0.chunk.js": "/Portfolio/static/js/787.455bead0.chunk.js",
-    "static/media/weather.png": "/Portfolio/static/media/weather.a0328f13aacd7d57b26f.png",
+    "static/media/weather.png": "/Portfolio/static/media/weather.55c39326d13dbfb22ef7.png",
+    "static/media/heat.png": "/Portfolio/static/media/heat.5a056963e2f9355ed45f.png",
     "static/media/paosanity.jpg": "/Portfolio/static/media/paosanity.afe460359ac609454a56.jpg",
+    "static/media/expense.png": "/Portfolio/static/media/expense.d4f3727df6ff5e34d6b3.png",
+    "static/media/central.png": "/Portfolio/static/media/central.e3c535776c01bb70e86b.png",
+    "static/media/tictactoe.png": "/Portfolio/static/media/tictactoe.8b999f3c0a1ff44ca6f8.png",
+    "static/media/emp.png": "/Portfolio/static/media/emp.23813e3efad310f488ab.png",
+    "static/media/F23_T23_Requirements_Analysis_and_Design-2.pdf": "/Portfolio/static/media/F23_T23_Requirements_Analysis_and_Design-2.4d801b82c2fac73773ae.pdf",
+    "static/media/F23_T23_High Level Requirements-2.pdf": "/Portfolio/static/media/F23_T23_High Level Requirements-2.8c429ea8bdf640fcda50.pdf",
     "static/media/react.png": "/Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/python.png": "/Portfolio/static/media/python.82efb64f8698a267f8bf.png",
     "static/media/php.png": "/Portfolio/static/media/php.00baeb442607d6f50cfe.png",
+    "static/media/logo.PNG": "/Portfolio/static/media/logo.201ad496d6e6f858051d.PNG",
+    "static/media/W24_T23_Project_Plan_V2.0.pdf": "/Portfolio/static/media/W24_T23_Project_Plan_V2.0.cb8a19b790d6d977eec8.pdf",
     "static/media/android.png": "/Portfolio/static/media/android.1e1e2016202afff22cc8.png",
+    "static/media/W24_T23_COMP3078_Project_Status_Report_2.pdf": "/Portfolio/static/media/W24_T23_COMP3078_Project_Status_Report_2.7fe438fc48598c5ce94a.pdf",
+    "static/media/F23_T23_Project Vision.pdf": "/Portfolio/static/media/F23_T23_Project Vision.1ee933b5ae06fa1a7f0f.pdf",
     "static/media/csharp.png": "/Portfolio/static/media/csharp.027bbf37466d07c18fbf.png",
     "static/media/java.png": "/Portfolio/static/media/java.35397b59170cfd616fee.png",
+    "static/media/F23_T23_Project Summary.pdf": "/Portfolio/static/media/F23_T23_Project Summary.97b79f7fd29488baf9d9.pdf",
+    "static/media/Paolo Casison Official Resume.pdf": "/Portfolio/static/media/Paolo Casison Official Resume.9e2513df174ce20369c6.pdf",
+    "static/media/Cover Letter.pdf": "/Portfolio/static/media/Cover Letter.5e4ce9ac836175d32afe.pdf",
     "static/media/git.png": "/Portfolio/static/media/git.8dd3688bb1415872d423.png",
     "static/media/css.png": "/Portfolio/static/media/css.443bc827ad57da012b4b.png",
     "static/media/html.png": "/Portfolio/static/media/html.9b674892ef5960bafca3.png",
@@ -19,12 +33,12 @@
     "static/media/node.png": "/Portfolio/static/media/node.9fea1c7da2bd42ab93bf.png",
     "static/media/swift.png": "/Portfolio/static/media/swift.dd13616e70bcd53cd606.png",
     "index.html": "/Portfolio/index.html",
-    "main.ff67398d.css.map": "/Portfolio/static/css/main.ff67398d.css.map",
-    "main.e8db6b0d.js.map": "/Portfolio/static/js/main.e8db6b0d.js.map",
+    "main.38e29107.css.map": "/Portfolio/static/css/main.38e29107.css.map",
+    "main.d14504ac.js.map": "/Portfolio/static/js/main.d14504ac.js.map",
     "787.455bead0.chunk.js.map": "/Portfolio/static/js/787.455bead0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff67398d.css",
-    "static/js/main.e8db6b0d.js"
+    "static/css/main.38e29107.css",
+    "static/js/main.d14504ac.js"
   ]
 }
