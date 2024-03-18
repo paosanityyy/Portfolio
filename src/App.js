@@ -17,6 +17,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path='/' element={<Overview />} />
+          <Route path='/Portfolio' element={<Overview />} />
           <Route path='/overview' element={<Overview />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/about' element={<About />} />
