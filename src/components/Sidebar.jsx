@@ -3,6 +3,7 @@ import myImg from "../img/paosanity.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeOpen, faFile, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import resumeFile from "../assets/Paolo Casison Official Resume.pdf";
 import '../styles/Sidebar.css';
 
 function Sidebar() {
@@ -15,7 +16,9 @@ function Sidebar() {
             <Card.Body className="card-body">
             <Card.Title className="name">Paolo Casison</Card.Title>
             <Card.Text className="title">Front End Web Developer</Card.Text>
-            <Button className="resume"><FontAwesomeIcon icon={faFile} /> Resume</Button>
+            <a href={resumeFile}>
+                <Button className="resume"><FontAwesomeIcon icon={faFile} /> Resume</Button>
+            </a>
             <a href="https://www.linkedin.com/in/paolo-casison-5387511bb/" target="_blank" rel="noopener noreferrer">
                 <Button className="linkedIn">
                     <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
@@ -38,10 +41,19 @@ function Sidebar() {
             <hr />
             <Card.Title className="socials">Socials</Card.Title>
             <div className="social-buttons-container">
-            <Button className="social-button facebook"><FontAwesomeIcon icon={faFacebook} /></Button>
-            <Button className="social-button twitter"><FontAwesomeIcon icon={faXTwitter} /></Button>
-            <Button className="social-button instagram"><FontAwesomeIcon icon={faInstagram} /></Button>
-            <Button className="social-button youtube"><FontAwesomeIcon icon={faYoutube} /></Button>
+            <a href="https://www.facebook.com/paosanityyy">
+                <Button className="social-button facebook"><FontAwesomeIcon icon={faFacebook} /></Button>
+            </a>
+            <a href="https://twitter.com/paosanity_">
+                <Button className="social-button twitter"><FontAwesomeIcon icon={faXTwitter} /></Button>
+            </a>
+            <a href="https://www.instagram.com/paosanity_/">
+                <Button className="social-button instagram"><FontAwesomeIcon icon={faInstagram} /></Button>
+            </a>
+            <a href="https://www.youtube.com/channel/UCuRvn7BKZqD1BC9_yMpEk1g">
+                <Button className="social-button youtube"><FontAwesomeIcon icon={faYoutube} /></Button>
+            </a>
+            
             </div>
             </Card.Footer>
         

@@ -1,26 +1,3 @@
-/* App.css */
-@media screen and (max-width: 600px) {
-  .sidebar, .overview, .projects {
-    width: 100%;
-    padding-left: 20px; /* Adjust padding for smaller screens */
-    padding-right: 20px;
-  }
-
-  .app-container {
-    flex-direction: column; /* Stack elements vertically on small screens */
-  }
-
-  /* Adjust font size for readability on small screens */
-  body, .sidebar, .overview, .projects {
-    font-size: 16px;
-  }
-
-  /* Simplify or hide certain elements that may not be necessary on mobile */
-  /* Example: .some-element { display: none; } */
-}
-
-
-
 body {
   margin: 0;
   font-family: Menlo, Monaco, 'Courier New', monospace;
@@ -48,10 +25,11 @@ body {
 }
 
 
-.overview, .projects-container {
+.overview, .projects-container, .about-container, .contact-container, .documentation-container {
   display: flex;
   flex-direction: column; /* Change to column for vertical alignment of content */
   color: #c0c0c0;
   font-size: 20px;
   padding-top: 120px; /* Add padding as needed */
+  width: 80%;
 }
