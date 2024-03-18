@@ -6,6 +6,7 @@ import Projects from './components/Projects'; // or any other page component
 import About from './components/About'; // or any other page component
 import Contact from './components/Contact'; // or any other page component
 import Documentation from './components/Documentation'; // or any other page component
+import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/documentation' element={<Documentation />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: Menlo, Monaco, 'Courier New', monospace;
   background-color: #1f1b24;
 }
 
@@ -33,3 +32,4 @@ body {
   padding-top: 120px; /* Add padding as needed */
   width: 80%;
 }
+

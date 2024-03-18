@@ -26,12 +26,11 @@ function Sidebar() {
             </a>
             <Card.Text className="location"><FontAwesomeIcon icon={faLocationDot} /> Toronto, ON, Canada</Card.Text>
             <div className="email">
-            <Card.Link><FontAwesomeIcon icon={faEnvelopeOpen} /> paolocasison@gmail.com</Card.Link>
+            <Card.Link href="mailto:paolocasison@gmail.com"><FontAwesomeIcon icon={faEnvelopeOpen} /> paolocasison@gmail.com</Card.Link>
             </div>
             <div className="github">
-            <a href="https://github.com/paosanityyy" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}} > 
-                <Card.Link><FontAwesomeIcon icon={faGithub} /> github.com/paosanity</Card.Link>
-            </a>
+            <Card.Link href="https://github.com/paosanityyy"><FontAwesomeIcon icon={faGithub} /> github.com/paosanity</Card.Link>
+           
 
                 
             </div>

@@ -1,0 +1,22 @@
+.documentation-container{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 150px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    color: #c0c0c0;
+}
+
+li:hover{
+    color: #007bff;
+    cursor: pointer;
+}

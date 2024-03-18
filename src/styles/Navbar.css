@@ -4,13 +4,14 @@
 .navigation{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .navbar-logo img{
     padding-left: 50px;
     width: 60px;
     height: auto;
-    margin-right: 575px;
+    padding-right: 530px;
 }
 
 .nav, .nav-item {
@@ -23,7 +24,6 @@
     width: 100%;
     background-color: #1f1b24; /* Light grey background */
     border-bottom: 0.5px solid #cccccc; /* Bottom border */
-    font-family: 'Courier New', Courier, monospace;
     position: fixed; /* Keep the navbar fixed at the top */
 }
 

@@ -29,7 +29,7 @@ const Overview = () => {
                     <h1 className='typewriter'>
                         <Typewriter
                             options={{
-                                strings: ['I love to code!', 'Front-end', 'Back-end', 'Full-stack'],
+                                strings: ['I love to code!', 'Frontend', 'Backend', 'Full-stack'],
                                 autoStart: true,
                                 loop: true,
                                 delay: 50,
