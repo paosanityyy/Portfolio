@@ -26,7 +26,7 @@ const Contact = () => {
                 </Form.Group>
                 
 
-                <button class=" w-fit relative inline-flex items-center justify-center p-0.5 mx-auto overflow-hidden text-sm font-medium text-gray-200 rounded-lg group bg-gradient-to-br from-orange-400 via-orange-500 to-yellow-400 group-hover:from-orange-400 group-hover:via-orange-500 group-hover:to-yellow-400 focus:ring-5 focus:outline-none focus:ring-red-100">
+                <button class=" w-fit relative inline-flex items-center justify-center p-0.5 mx-auto overflow-hidden text-sm font-medium text-gray-200 rounded-lg group bg-gradient-to-br from-amber-600 via-amber-500 to-amber-300 group-hover:from-orange-400 group-hover:via-orange-500 group-hover:to-yellow-400 focus:ring-5 focus:outline-none focus:ring-red-100">
                     <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-neutral-700 rounded-md group-hover:bg-opacity-0">
                         Submit
                     </span>

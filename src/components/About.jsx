@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import info from '../info';
 import '../styles/About.css';
 import 'animate.css';
+import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 const About = () => {
     return(
@@ -28,7 +30,11 @@ const About = () => {
                         ))}
                     </ul>
                     
-                    
+                    <button class="w-fit relative flex justify-center p-0.5 mx-auto overflow-hidden text-md text-gray-200 rounded-lg group bg-gradient-to-br from-amber-600 via-amber-500 to-amber-300 group-hover:from-orange-400 group-hover:via-orange-500 group-hover:to-yellow-400 focus:ring-5 focus:outline-none focus:ring-red-100">
+                        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-neutral-700 rounded-md group-hover:bg-opacity-0">
+                            <FontAwesomeIcon icon={faFile} size={24} className='mx-1'/>Resume
+                        </span>
+                    </button>
                 </div>
                 
             </article>
