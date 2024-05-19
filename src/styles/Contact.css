@@ -1,0 +1,16 @@
+/* styles/Form.css */
+
+.custom-input {
+    outline: none; /* Remove the default outline */
+  }
+  
+.custom-input:focus {
+    outline: none; /* Ensure no outline */
+    box-shadow: none; /* Remove any box-shadow */
+    border-color: amber-600; /* Optionally, customize the border color */
+}
+
+.custom-input::placeholder {
+    color: #8e8e8e; /* Optionally, customize the placeholder color */
+}
+

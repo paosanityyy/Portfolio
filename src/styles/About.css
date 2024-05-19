@@ -1,0 +1,20 @@
+@keyframes waveAnimation {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    20%, 60% {
+        transform: rotate(-20deg);
+    }
+    40%, 80% {
+        transform: rotate(20deg);
+    }
+}
+
+.wave-hand {
+    display: inline-block;
+    animation: waveAnimation 2s infinite;
+    transform-origin: 70% 70%;  /* Adjust this to change the pivot point of the wave */
+}
+
+
+

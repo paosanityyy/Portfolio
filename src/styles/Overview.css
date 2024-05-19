@@ -1,0 +1,23 @@
+#overview {
+    height: 100%;
+  }
+  
+#overview h2 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+}
+  
+#overview span {
+    border-right: .05em solid;
+    border-color: orange;
+    animation: caret 1s steps(1) infinite;
+}
+
+  
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+}
+
+  
