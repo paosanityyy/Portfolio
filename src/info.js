@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faInstagram, faFacebook, faXTwitter, faYoutube,  } from "@fortawesome/free-brands-svg-icons";
-import { faUser, faFile } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faUser, faFile } from "@fortawesome/free-regular-svg-icons";
 
 import resume from './pdf/Paolo Casison Official Resume.pdf';
 import coverLetter from './pdf/Cover Letter.pdf';
@@ -25,6 +25,10 @@ const info = {
         email: 'paolocasison@gmail.com',
     },
     socials: [
+        {
+            url:'mailto:paolocasison@gmail.com',
+            icon: <FontAwesomeIcon icon={faEnvelope} />,
+        },
         {
             url:'https://www.linkedin.com/in/paolo-casison-5387511bb/',
             icon: <FontAwesomeIcon icon={faLinkedin} />,
@@ -162,7 +166,7 @@ const info = {
             name: 'Weather App',
             description: 'A weather application that allows users to search for the weather of a specific city. The application uses the OpenWeatherMap API to fetch the weather data of the city.',
             url: "https://github.com/paosanityyy/101384585_comp3123_labtest2.git",
-            techStack: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap', 'OpenWeatherMap API'],
+            techStack: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap'],
             screenshot: weather
         },
         {

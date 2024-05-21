@@ -17,9 +17,9 @@ const Projects = () => {
                           {project.description}
                       </p>
                       Tech Stack: 
-                      <ul className="mt-1 flex flex-row items-center gap-2 justify-center text-sm text-white">
+                      <ul className="mt-1 flex flex-row flex-rows-3 items-center gap-1 justify-center ">
                         {project.techStack.map((tech, index) => (
-                          <li key={index} className="tech-icon border border-transparent bg-slate-500 p-1 text-xs hover:bg-slate-700 rounded-md ">
+                          <li key={index} className=" border border-transparent bg-slate-500 p-1 text-xs hover:bg-slate-700 rounded-md ">
                             {tech}
                           </li>
                         ))}
