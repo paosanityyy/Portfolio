@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 const Projects = () => {
   return (
     <section id="projects" className="p-6 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
-        <ul className="w-full flex flex-row grid grid-cols-2 gap-5 justify-center items-center m-auto"> 
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center m-auto"> 
             {info.projects.map((project, index) => (
                 <li key={index} className="card-wrapper flex flex-col items-center justify-center relative rounded-xl shadow-lg">
                     <img src={project.screenshot} alt={project.name} className="card-img w-full m-auto transition-all duration-500" />

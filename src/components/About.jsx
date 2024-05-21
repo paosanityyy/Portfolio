@@ -7,13 +7,13 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
 const About = () => {
     return(
         <section id="hero" className="mt-16 flex flex-col-reverse justify-between sm:flex-col-reverse md:flex-row items-center widescreen:section-min-height tallscreen:section-min-height">
-        <article className="p-10 sm:w-2/3 mx-auto flex flex-col items-center justify-center flex-grow">
+        <article className="w-3/4 md:w-1/3 flex flex-col items-center justify-center flex-grow">
                 <h1 className="text-6xl font-bold text-center">Hi! I'm <span className="bg-clip-text text-transparent" style={{backgroundImage: info.gradient}}>{info.firstName} </span> 
                     <span className='wave-hand'>
                         👋
                     </span>
                 </h1>
-                <p className="max-w-xl text-2xl mt-4 mx-auto text-justify text-slate-400">
+                <p className="text-2xl mt-4 p-10 text-justify text-slate-400">
                     {info.about}
                 </p>
                 <div>
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 
             </article>
-            <img className='rounded-full w-1/2 sm:w-1/2 md:w-1/3 hover:shadow-2xl hover:shadow-amber-500' src={info.image} alt="paosanity" />
+            <img className='rounded-full w-1/2 mb-20 md:w-1/3 hover:shadow-2xl hover:shadow-amber-500' src={info.image} alt="paosanity" />
         </section> 
     )
 }
