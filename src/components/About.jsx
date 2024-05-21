@@ -13,7 +13,7 @@ const About = () => {
                         👋
                     </span>
                 </h1>
-                <p className="text-2xl mt-4 p-10 text-justify text-slate-400">
+                <p className="text-2xl mt-4 text-justify text-slate-400">
                     {info.about}
                 </p>
                 <div>
@@ -31,14 +31,14 @@ const About = () => {
                     </ul>
                     
                     <button class="w-fit relative flex justify-center p-0.5 mx-auto overflow-hidden text-md text-gray-200 rounded-lg group bg-gradient-to-br from-amber-600 via-amber-500 to-amber-300 group-hover:from-orange-400 group-hover:via-orange-500 group-hover:to-yellow-400 focus:ring-5 focus:outline-none focus:ring-red-100">
-                        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-neutral-700 rounded-md group-hover:bg-opacity-0">
+                        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-neutral-700 rounded-md group-hover:bg-opacity-0 font-bold">
                             <FontAwesomeIcon icon={faFile} size={24} className='mx-1'/>Resume
                         </span>
                     </button>
                 </div>
                 
             </article>
-            <img className='rounded-full w-1/2 mb-20 md:w-1/3 hover:shadow-2xl hover:shadow-amber-500' src={info.image} alt="paosanity" />
+            <img className='rounded-full w-1/2 mb-20 md:w-1/3 hover:shadow-2xl hover:shadow-amber-500 mx-4' src={info.image} alt="paosanity" />
         </section> 
     )
 }

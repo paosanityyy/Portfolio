@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <header className="bg-amber-700 text-white sticky top-0 z-10">
-            <section className="max-w-7xl mx-auto px-8 flex justify-between items-center">
+            <section className="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
                 <a href='/'>
                     <img src={Logo} alt="logo" className='w-16' />
                 </a>
