@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 const Contact = () => {
     return(
         <section id="contact" className="p-6 mt-3 widescreen:section-min-height tallscreen:section-min-height"> 
-            <h1 className="text-6xl font-bold text-center">Let's connect! 🤝</h1>
+            <h1 className="text-5xl md:text-6xl font-bold text-center">Let's connect! 🤝</h1>
             <p className="text-lg text-center my-5 font-bold mb-10">I'm always open for a new opportunity to collaborate!</p>
             <Form className="max-w-5xl flex flex-col justify-center bg-gray-400 rounded-xl p-6 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-0 border border-neutral-600 ">
                 <Form.Group className="flex flex-col mb-3">
