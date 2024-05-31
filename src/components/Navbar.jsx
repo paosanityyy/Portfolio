@@ -43,11 +43,11 @@ const Navbar = () => {
                     </nav>
                 </div>
             </section>
-            <section id="mobile-menu" className={`absolute top-68 bg-black bg-opacity-90 w-full text-5xl flex-col justify-center origin-top ${menuOpen ? 'flex animate-open-menu' : 'hidden'}`}>
+            <section id="mobile-menu" className={`absolute top-68 bg-black bg-opacity-90 w-full text-4xl flex-col justify-center origin-top ${menuOpen ? 'flex animate-open-menu' : 'hidden'}`}>
                 {/* <button className="text-6xl self-end px-6" onClick={toggleMenu}>
                     &times;
                 </button> */}
-                <nav className="flex flex-col min-h-screen items-center justify-center" aria-label='mobile'>
+                <nav className="flex flex-col min-h-screen items-center mt-10" aria-label='mobile'>
                     {links.map((link, index) => (
                         <a key={index} href={link.href} className='w-full text-center mb-16 hover:text-amber-600'>
                             <FontAwesomeIcon icon={link.icon} /> {link.text}

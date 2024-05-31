@@ -22,7 +22,7 @@ const Contact = () => {
                 </Form.Group>
                 <Form.Group className="w-full flex flex-col mb-5">
                     <Form.Label className=" text-lg text-slate-400">Message </Form.Label>
-                    <Form.Control as="textarea" rows={5} className='custom-input p-2 text-lg bg-neutral-700 border-2 border-neutral-600 rounded-lg' placeholder="Enter your message"/>
+                    <Form.Control as="textarea" rows={3} className='custom-input p-2 text-lg bg-neutral-700 border-2 border-neutral-600 rounded-lg' placeholder="Enter your message"/>
                 </Form.Group>
                 
 

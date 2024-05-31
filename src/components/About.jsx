@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                 
             </article>
-            <img className='rounded-full w-1/2 md:w-1/3 mb-20 hover:shadow-2xl hover:shadow-amber-500 mx-4' src={info.image} alt="paosanity" />
+            <img className='rounded-full w-1/2 md:w-1/3 mb-10 md:mb-0 hover:shadow-2xl hover:shadow-amber-500 mx-4' src={info.image} alt="paosanity" />
         </section> 
     )
 }

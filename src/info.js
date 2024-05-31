@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faInstagram, faFacebook, faXTwitter, faYoutube,  } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faUser, faFile } from "@fortawesome/free-regular-svg-icons";
 
 import resume from './pdf/Paolo Casison Official Resume.pdf';
@@ -11,6 +11,7 @@ import weather from './img/weather.png';
 import tictactoe from './img/tictactoe.png';
 import expense from './img/expense.png';
 import central from './img/central.png';
+import spring from './img/socmed.png';
 
 
 const info = {
@@ -38,26 +39,6 @@ const info = {
             url:'https://www.github.com/paosanityyy',
             icon: <FontAwesomeIcon icon={faGithub} />,
             name: 'GitHub'
-        },
-        {
-            url:'https://www.facebook.com/paosanityyy',
-            icon: <FontAwesomeIcon icon={faFacebook} />,
-            name: 'Facebook'
-        },
-        {
-            url:'https://www.instagram.com/paosanity_/',
-            icon: <FontAwesomeIcon icon={faInstagram} />,
-            name: 'Instagram'
-        },
-        {
-            url:'https://www.twitter.com/paosanity_/',
-            icon: <FontAwesomeIcon icon={faXTwitter} />,
-            name: 'X'
-        },
-        {
-            url:'https://www.youtube.com/channel/UCuRvn7BKZqD1BC9_yMpEk1g',
-            icon: <FontAwesomeIcon icon={faYoutube} />,
-            name: 'YouTube'
         },
         {
             url: resume,
@@ -183,6 +164,13 @@ const info = {
             techStack: ['Python', 'SQLite'],
             screenshot: expense
         },
+        {
+            name: "Spring Social Backend",
+            description: "A social media backend application developed using Spring Boot",
+            url: "https://github.com/paosanityyy/GBC_SpringSocial22.git",
+            techStack: ['Spring Boot', 'Java'],
+            screenshot: spring
+        }
     ],
 }
 
