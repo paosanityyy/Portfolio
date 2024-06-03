@@ -12,6 +12,7 @@ import tictactoe from './img/tictactoe.png';
 import expense from './img/expense.png';
 import central from './img/central.png';
 import spring from './img/socmed.png';
+import chat from './img/chat.png';
 
 
 const info = {
@@ -137,6 +138,20 @@ const info = {
             youtube: 'https://youtu.be/nLOtsFYO4dA'
         },
         {
+            name: "Spring Social Backend",
+            description: "A social media backend application developed using Spring Boot",
+            url: "https://github.com/paosanityyy/GBC_SpringSocial22.git",
+            techStack: ['Spring Boot', 'Java'],
+            screenshot: spring
+        },
+        {
+            name: 'Chat Application',
+            description: 'A chat application that allows users to chat with other users. The application uses Socket.IO to enable real-time, bidirectional and event-based communication.',
+            url: 'https://github.com/paosanityyy/101384585_lab_test1_chat_app.git',
+            techStack: ['HTML', 'CSS', 'JavaScript', 'React', 'Socket.IO'],
+            screenshot: chat
+        },
+        {
             name: 'Employee Management System',
             description: 'A full stack web application that allows users to create, read, update, and delete employees. The front-end was built using React and the back-end was built using NodeJS, ExpressJS, and MongoDB.',
             url: 'https://github.com/paosanityyy/101384585_comp3123_assignment2.git',
@@ -163,13 +178,6 @@ const info = {
             url: "https://github.com/paosanityyy/expense_tracker.git",
             techStack: ['Python', 'SQLite'],
             screenshot: expense
-        },
-        {
-            name: "Spring Social Backend",
-            description: "A social media backend application developed using Spring Boot",
-            url: "https://github.com/paosanityyy/GBC_SpringSocial22.git",
-            techStack: ['Spring Boot', 'Java'],
-            screenshot: spring
         }
     ],
 }
