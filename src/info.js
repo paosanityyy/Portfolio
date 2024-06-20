@@ -13,6 +13,7 @@ import expense from './img/expense.png';
 import central from './img/central.png';
 import spring from './img/socmed.png';
 import chat from './img/chat.png';
+import spacex from './img/spacex.png';
 
 
 const info = {
@@ -56,7 +57,7 @@ const info = {
         'I am a Full Stack Developer with a passion for creating and developing web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a team player and I am always willing to help and share my knowledge with others. I am also a fast learner and I am always looking for ways to improve my skills and knowledge.',
 
     intro: 
-        'Hello there! I am a recent graduate of George Brown College with an advanced diploma in Computer Programmer and Analysis. I am an aspiring Full Stack Developer residing in Toronto, Ontario, Canada, where in my opinion the opportunities are endless. I am a self-taught developer with a passion for creating and developing web applications. I have experience in both front-end and back-end development, and I am always eager to improve my craft and continue learning where the gift of technology takes us. I am a team player and I am always willing to help and collaborate my knowledge with others. I am also a fast learner and I am always looking for ways to improve my skills and knowledge.',
+        'Hello there! I am a recent honours graduate of George Brown College with an advanced diploma in Computer Programmer and Analysis. I am an aspiring Full Stack Developer residing in Toronto, Ontario, Canada, where in my opinion the opportunities are endless. I am a self-taught developer with a passion for creating and developing web applications. I have experience in both front-end and back-end development, and I am always eager to improve my craft and continue learning where the gift of technology takes us. I am a team player and I am always willing to help and collaborate my knowledge with others. I am also a fast learner and I am always looking for ways to improve my skills and knowledge.',
 
     techStack: [
         {
@@ -143,6 +144,13 @@ const info = {
             url: "https://github.com/paosanityyy/GBC_SpringSocial22.git",
             techStack: ['Spring Boot', 'Java'],
             screenshot: spring
+        },
+        {
+            name: 'SpaceX Mission Tracker',
+            description: 'A web application that allows users to track SpaceX missions. The application uses the SpaceX API to fetch the data of the missions.',
+            url: 'https://github.com/paosanityyy/101384585-lab-test2-comp3133.git',
+            techStack: ['Angular.JS', 'SpaceX API'],
+            screenshot: spacex
         },
         {
             name: 'Chat Application',

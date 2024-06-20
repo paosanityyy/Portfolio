@@ -41,7 +41,7 @@ const Overview = () => {
         <h3 className="text-3xl text-center mb-3 font-bold">Tech Stack</h3>
         <ul className="w-full p-6 flex flex-wrap justify-center items-center gap-3"> 
             {info.techStack.map((tech, index) => (
-                <li key={index} className="w-28 h-28 flex flex-col items-center justify-center border border-gray-400 hover:bg-neutral-700 hover:bg-opacity-70 hover:text-neutral-200 rounded-xl shadow-lg animate__animated animate__zoomIn animate__faster">
+                <li key={index} className="w-28 h-28 flex bg-neutral-800 flex-col items-center justify-center border border-gray-400 hover:bg-neutral-700 hover:bg-opacity-70 hover:text-neutral-200 rounded-2xl shadow-lg animate__animated animate__zoomIn animate__faster">
                     <img src={tech.icon} alt={tech.name} className="w-12 mb-2" />
                     <p className="text-md">{tech.name}</p>
                 </li>
