@@ -3,7 +3,7 @@ import info from '../info';
 import '../styles/About.css';
 import 'animate.css';
 import { faFile, faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import resume from '../pdf/Paolo Casison Official Resume.pdf';
+import resume from '../pdf/IT Resume 2.pdf';
 
 const About = () => {
     return(

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faUser, faFile } from "@fortawesome/free-regular-svg-icons";
 
-import resume from './pdf/Paolo Casison Official Resume.pdf';
+import resume from './pdf/IT Resume 2.pdf';
 import coverLetter from './pdf/Cover Letter.pdf';
 
 import Paosanity from './img/paosanity.png';
