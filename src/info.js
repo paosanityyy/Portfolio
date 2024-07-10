@@ -14,6 +14,7 @@ import central from './img/central.png';
 import spring from './img/socmed.png';
 import chat from './img/chat.png';
 import spacex from './img/spacex.png';
+import airbnb from './img/airbnb.png';
 
 
 const info = {
@@ -130,6 +131,13 @@ const info = {
         },     
     ],
     projects: [
+        {
+            name: 'Airbnb Clone',
+            description: 'A web application that allows users to book accommodations and owners to add their places.',
+            url: 'https://github.com/paosanityyy/airbnb-clone.git',
+            techStack: ['MongoDB', 'ExpressJS', 'React', 'NodeJS'],
+            screenshot: airbnb,
+        },
         {
             name: 'Central Studios Mobile Application',
             description: "Our team developed a barber shop application that allows users to book appointments, leave reviews and live barber consultation feature",
