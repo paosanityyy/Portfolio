@@ -34,7 +34,7 @@ const info = {
             icon: <FontAwesomeIcon icon={faEnvelope} />,
         },
         {
-            url:'https://www.linkedin.com/in/paolo-casison-5387511bb/',
+            url:'https://www.linkedin.com/in/paolocasison/',
             icon: <FontAwesomeIcon icon={faLinkedin} />,
             name: 'LinkedIn'
         },
